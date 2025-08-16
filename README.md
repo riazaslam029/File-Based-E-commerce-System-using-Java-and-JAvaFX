@@ -79,4 +79,3 @@ Password: 1234
 
 ## 📜 License
 
-This project is open-source. You are free to use and modify it for learning purposes.
