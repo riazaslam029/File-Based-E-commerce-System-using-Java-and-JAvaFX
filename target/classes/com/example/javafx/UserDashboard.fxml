@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox spacing="10" style="-fx-background-color: #e3f2fd;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx.UserDashboardController">
+
+    <padding>
+        <Insets bottom="10" left="10" right="10" top="10" />
+    </padding>
+
+    <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Product List" translateX="700.0" />
+   <Button fx:id="searchButton" maxHeight="50.0" maxWidth="60.0" mnemonicParsing="false" onAction="#handleSearch" prefHeight="25.0" prefWidth="116.0" style="-fx-background-color: orange;" text="Search" textFill="#f4efef" translateX="1110.0" translateY="15.0">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font>
+   </Button>
+   <TextField fx:id="searchField" maxWidth="150.0" prefHeight="25.0" prefWidth="485.0" promptText="Search" translateX="950.0" translateY="-20.0" />
+
+    <ScrollPane fitToWidth="true" prefHeight="499.0" prefWidth="620.0" style="-fx-background-color: #e3f2fd;">
+        <content>
+            <FlowPane fx:id="productFlowPane" hgap="15" vgap="15">
+                <padding>
+                    <Insets bottom="10" left="10" right="10" top="10" />
+                </padding>
+            </FlowPane>
+        </content>
+      <VBox.margin>
+         <Insets />
+      </VBox.margin>
+      <padding>
+         <Insets left="100.0" right="100.0" />
+      </padding>
+    </ScrollPane>
+
+    <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Shopping Cart" translateX="600.0" />
+
+    <ListView fx:id="cartList" maxWidth="500.0" prefHeight="150" prefWidth="492.0" translateX="390.0" />
+
+    <HBox alignment="CENTER" spacing="10">
+      <Button mnemonicParsing="false" onAction="#clearCart" style="-fx-background-color: gold;" text="Clear Cart">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+        <Button onAction="#handleDone" style="-fx-background-color: yellow;" text="Checkout">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font></Button>
+        <Button onAction="#handleBack" style="-fx-background-color: red;" text="Back" textFill="#f2efef">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+    </HBox>
+</VBox>

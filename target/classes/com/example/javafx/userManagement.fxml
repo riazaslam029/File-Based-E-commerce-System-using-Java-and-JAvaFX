@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="522.0" prefWidth="974.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx.userManagementController">
+   <children>
+      <Text layoutX="552.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Management Table">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="userDisplayArea" editable="false" layoutX="374.0" layoutY="85.0" prefHeight="279.0" prefWidth="600.0">
+         <font>
+            <Font name="Courier New" size="12.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="userManagementBack" layoutX="662.0" layoutY="394.0" mnemonicParsing="false" onAction="#handleBack" style="-fx-background-color: gold;" text="Back" />
+      <TextField fx:id="usernameField" layoutX="69.0" layoutY="130.0" promptText="Type username" />
+      <Text layoutX="69.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter username: " />
+                <Label layoutX="65.0" layoutY="49.0" prefHeight="17.0" prefWidth="149.0" style="-fx-background-color: gold;" text="            Remove User" />
+      <Button fx:id="removeUserButton" layoutX="110.0" layoutY="274.0" mnemonicParsing="false" onAction="#deleteUser" style="-fx-background-color: red;" text="Remove" textFill="WHITE" />
+   </children>
+</AnchorPane>
