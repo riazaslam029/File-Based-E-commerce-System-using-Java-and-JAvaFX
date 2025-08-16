@@ -1,0 +1,16 @@
+mouse,100.0,D:\File based e-commerace system using javafx\javafx\src\main\resources\images\mouse.png,10
+charger,200.0,C:\Users\dell\Pictures\images\charger.png,20
+headphones,300.0,C:\Users\dell\Pictures\images\headphones.png,30
+keyboard,450.0,C:\Users\dell\Pictures\images\keyboard.png,23
+mobile phone,10000.0,C:\Users\dell\Pictures\images\smartphone.png,40
+pants,650.0,C:\Users\dell\Pictures\images\pant.png,20
+remote,150.0,C:\Users\dell\Pictures\images\remote.png,20
+shirt,550.0,C:\Users\dell\Pictures\images\shirt.png,50
+smart watch,3500.0,C:\Users\dell\Pictures\images\smartwatch.png,40
+yoyo,100.0,C:\Users\dell\Pictures\images\IMG-20250612-WA0009.jpg,35
+music player,800.0,C:\Users\dell\Pictures\images\IMG-20250612-WA0012.jpg,35
+RAM,2000.0,C:\Users\dell\Pictures\images\IMG-20250612-WA0017.jpg,50
+Mystery box,2500.0,C:\Users\dell\Pictures\images\IMG-20250612-WA0018.jpg,100
+dice,20.0,C:\Users\dell\Pictures\images\IMG-20250612-WA0019.jpg,100
+cards,250.0,C:\Users\dell\Pictures\images\IMG-20250612-WA0020.jpg,24
+stopwatch,200.0,C:\Users\dell\Pictures\images\IMG-20250612-WA0011.jpg,23
