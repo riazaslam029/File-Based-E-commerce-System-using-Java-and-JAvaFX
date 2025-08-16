@@ -72,11 +72,21 @@ Username: admin
 
 Password: 1234
 
+## 📌 Future Improvements
+
+Replace file storage with SQL database
+
+Improve UI/UX with better design
+
+Use Cloud storage for pictures
+
 ## 👨‍💻 Author
  Riaz Aslam
+ 📍 Software Engineering Student | Java & OOP Enthusiast
+🎥 Content Creator & Video Editor
 
  GitHub profile: https://github.com/riazaslam029
 
 ## 📜 License
 
-This project is open-source. You are free to use and modify it for learning purposes.
+This project is licensed under the MIT License – feel free to use and modify!
